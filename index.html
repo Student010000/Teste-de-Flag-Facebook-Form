@@ -3,18 +3,21 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Formilário de Registo</title>
+		<link rel="stylesheet" href="style.css"></link>
 	</head>
 	<body>
-		<h1>Regista-te</h1>
-		<h2>É rápido e fácil, agora com menos roubo de dados</h2>
-		<form methoth="post" action="index.html">
-			<div>
-				<input type="text" name="first_name" placeholder="Nome próprio" aria-label="Nome Próprio" required>
-				<input type="text" name=last_name" placeholder="Apelido" aria-label="Apelido" required>
-			</div>
-			<div>
-				<button type="submit" name="Send">Regista-te e dá me os teus dados</button>
-			</div>
-		</form>
+		<main>
+			<h1>Regista-te</h1>
+			<h2>É rápido e fácil, agora com menos roubo de dados</h2>
+			<form methoth="post" action="index.html">
+				<div>
+					<input type="text" name="first_name" placeholder="Nome próprio" aria-label="Nome Próprio" required>
+					<input type="text" name=last_name" placeholder="Apelido" aria-label="Apelido" required>
+				</div>
+				<div class="form-submit"">
+					<button type="submit" name="Send">Regista-te e dá me os teus dados</button>
+				</div>
+			</form>
+		</main>
 	</body>
 </html>
