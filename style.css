@@ -21,17 +21,33 @@ h2 {
 	color: #606770;
 }
 
-form{
+form {
 	border-top: 1px solid #CCC;
 	padding-top: 15px;
 }
 
-.form-submit{
+.double-input input {
+	with: 46.8%;
+}
+
+.large-input input {
+	with: 97%;
+}
+
+.double-input input, .large-input input {
+	padding: 6px 8px;
+	background-color: #f5f6f7;
+	border: 1px solid #ccd05;
+	border-radius: 5px;
+	margin-bottom 6px;
+}	
+
+.form-submit {
 	margin: 20px 0;
 	text-align: center;
 }
 
-.form-submit button{
+.form-submit button {
 	background-color: #060;
 	color: #FFF;
 	padding: 8px 30px;
